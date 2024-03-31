@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+}
+
+:root {
+    --first-color: #283618;
+    --second-color: #606c38;
+    --third_color: #fefae0;
+    --fourth-color: #dda15e;
+    --fifth-color: #bc6c25;
+}
+
+.container {
+    font-family:"Montserrat", sans-serif;
+    background-color: var(--fourth-color);
+    margin: 150px auto;
+    width: 450px;
+    height: auto;
+    
+}
+
+.card {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 12px 9px 5px var(--first-color);
+}
+
+
+
+.cactus {
+    height: 170px;
+    width: auto;
+    
+}
+
+.text {
+    color: var(--first-color);
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dotted {
+    border: 1px dotted var(--second-color);
+    border-radius: 10px;
+}
+
+.link {
+    background-color: var(--fifth-color);
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: var(--third_color);
+    transition-duration: 1s;
+    transition-property: background, border-radius;
+}
+
+.link:hover {
+    color: var(--first-color);
+    border-radius: 20% 20% 20% 20%;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 0.8rem;
+}
